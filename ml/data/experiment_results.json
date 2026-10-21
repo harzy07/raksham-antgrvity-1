@@ -1,0 +1,30 @@
+{
+  "dataset_size": 1200,
+  "scam_count": 600,
+  "benign_count": 600,
+  "saturated_set": {
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "unseen_benchmark": {
+    "mean_recall_text_only": 0.8,
+    "worst_unseen_recall_text_only": 0.49,
+    "worst_unseen_family": "upi_collect",
+    "mean_recall_fused": 0.97,
+    "family_breakdown_text_only": {
+      "KYC / refund": 90.8,
+      "Digital arrest": 100.0,
+      "Lottery": 98.3,
+      "UPI collect": 49.2,
+      "Job task": 60.0
+    },
+    "family_breakdown_fused": {
+      "KYC / refund": 98.3,
+      "Digital arrest": 100.0,
+      "Lottery": 94.2,
+      "UPI collect": 100.0,
+      "Job task": 94.2
+    }
+  },
+  "conclusion": "A text-only baseline drops sharply on novel scam workflows. RAKSHAM's multi-signal fusion and Emerging-Cluster engine maintains >= 85% recall on never-before-seen scam campaigns."
+}

@@ -1,0 +1,37 @@
+{
+  "n_samples": 1200,
+  "features": [
+    "content_prob",
+    "call_active",
+    "screen_share_active",
+    "time_on_step",
+    "new_device",
+    "pasted_vpa",
+    "geo_velocity",
+    "odd_hour",
+    "amount_ratio_history",
+    "beneficiary_recency",
+    "first_time_payee",
+    "velocity_1h",
+    "fan_out_ratio",
+    "novelty_cluster"
+  ],
+  "feature_importances": {
+    "fan_out_ratio": 0.2662228865081051,
+    "first_time_payee": 0.23968823354673585,
+    "amount_ratio_history": 0.21900303420835385,
+    "beneficiary_recency": 0.09245977109110451,
+    "content_prob": 0.07940890366998522,
+    "time_on_step": 0.06704587792525979,
+    "novelty_cluster": 0.036171293050455695,
+    "call_active": 0.0,
+    "screen_share_active": 0.0,
+    "new_device": 0.0,
+    "pasted_vpa": 0.0,
+    "geo_velocity": 0.0,
+    "odd_hour": 0.0,
+    "velocity_1h": 0.0
+  },
+  "target_latency_ms": "< 15ms local inference",
+  "trained_date": "2026-10-21"
+}
